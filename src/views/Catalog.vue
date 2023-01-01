@@ -92,7 +92,7 @@
               >
                 <template
                   v-slot:activator>
-                  <v-list-item-title>Filter</v-list-item-title>
+                  <v-list-item-title>{{$t('Filters')}}</v-list-item-title>
                 </template>
                 <v-list-group
                   :value=true
